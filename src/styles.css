@@ -1,0 +1,11 @@
+:root {
+  --primary-font: Poppins, sans-serif;
+}
+
+h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 5px;
+}
