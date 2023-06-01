@@ -11,38 +11,52 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-h6 {
+header h6 {
+  width: 144px;
+  height: 36px;
   font-style: normal;
   font-size: 24px;
   text-align: center;
   letter-spacing: 5px;
   color: white;
+  line-height: 36px;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-h1 {
+header h1 {
   font-style: bold;
   font-size: 69px;
   color: white;
+  line-height: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-h3 {
+header h3 {
   font-style: normal;
   font-size: 40px;
+  font-weight: 400;
   color: white;
+  height: 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/Krakow_panorama.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
+  padding: 200px 0px;
 }
 
 header a {
@@ -56,4 +70,19 @@ header a {
   height: 25px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px, 0px;
+  }
+  header h1 {
+    font-size: 45px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+  header h6 {
+    font-size: 12px;
+  }
 }
